@@ -1,0 +1,25 @@
+{
+  "name": "rapportyk",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "~4.7.2",
+    "nodemailer": "^4.6.3",
+    "wow.js": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kartyk/Rapportyk.git"
+  },
+  "author": "Rapportyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kartyk/Rapportyk/issues"
+  },
+  "homepage": "https://github.com/Kartyk/Rapportyk#readme"
+}

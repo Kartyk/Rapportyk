@@ -1,0 +1,138 @@
+.mast_0{
+    position: relative;
+    width: 100%;
+    padding-top: 17%;
+    color: #fff;
+    background: url('../images/web development/web_app_top_bg.jpg'),linear-gradient(to left,#7b4397,#dc2430);
+}
+
+.mast_1{
+    margin: auto;
+    width: 45%;
+    margin-top: -55px;
+}
+
+.mast_2 {
+    margin: 0;
+    background-color: #8bc0e6;
+}
+
+.mast-4 {
+    margin: 0;
+    padding: 5px;
+}
+
+.mast-5 h1 {
+    font-size: 45px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+img.mast_7 {
+    width: 75%;
+}
+
+.mast_8{
+    padding: 20%;
+}
+
+.mast_9{
+    margin: auto;
+    text-align: center;
+}
+
+.animated{
+    -webkit-animation-duration: 3s !important;
+    animation-duration: 3s !important;
+}
+
+a.nav-link.js-scroll-trigger.active {
+    color: #a767a7 !important;
+    border-bottom: 2px solid #a767a7;
+}
+
+.l-footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 100px;
+}
+
+.l-footer__left {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.l-footer__block {
+    margin-right: 4rem;
+}
+
+.l-footer__block .share {
+    min-width: 170px;
+}
+
+.share {
+    margin: .5rem 0;
+}
+
+.share__icons {
+    margin: .3em 0;
+}
+
+.share__icons li {
+    display: inline-block;
+    margin-right: .45em;
+    padding-bottom: .3em;
+}
+
+.l-footer__bp {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-negative: 0;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    width: 480px;
+    font-weight: 400;
+    color: #000;
+    transition: opacity .3s;
+}
+
+.share__icons a {
+    color: #35434a !important;
+}
+
+.mast_3{
+    border: 1px solid #de2a47;
+    width: 4%;
+    margin: 0 auto;
+}

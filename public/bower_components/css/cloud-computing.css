@@ -1,0 +1,205 @@
+/*
+header.masthead{
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/cloud computing/cloud_bg.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+header.masthead-5{
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/web development/web_app_top_bg.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+header.masthead-9{
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/ecommerce/ecommerce_bg.png") no-repeat center center;
+    -webkit-background-size: cover;
+    moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.overlay{
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
+.masthead-0{
+    position: relative;
+    background-color: #3d79ff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.masthead-1{
+    width: 100%;
+}
+
+.masthead-2{
+    padding: 12%;
+    text-align: justify !important;
+}
+
+.masthead-3{
+    padding-bottom: 6rem;
+}
+
+section.masthead-4 {
+    padding-top: 10rem;
+}
+
+.masthead-6{
+    padding-top: 30%;
+    text-align: justify !important;
+}
+
+.masthead-7{
+    position: relative;
+    background-color: #7aa5ff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.masthead-8{
+    border-top: 1px solid #3a455a;
+    width: 3.5%;
+    margin: auto;
+}*/
+
+.cloud_0{
+    position: relative;
+    width: 100%;
+    padding-top: 17%;
+    color: #fff;
+    background: url('../images/cloud computing/cloud_bg.jpg'),linear-gradient(to left,#7b4397,#dc2430);
+    overflow: hidden;
+}
+
+img.cloud_1 {
+    width: 45%;
+    height: 45%;
+    margin: auto;
+}
+
+.cloud_2{
+
+    padding: 5%;
+}
+
+.cloud_7{
+    background-color: #007bff;
+}
+
+img.cloud_3 {
+    width: 100%;
+}
+
+.cloud_4 {
+    padding-top: 15%;
+    color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.l-footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 100px;
+}
+
+.l-footer__left {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.l-footer__block {
+    margin-right: 4rem;
+}
+
+.l-footer__block .share {
+    min-width: 170px;
+}
+
+.share {
+    margin: .5rem 0;
+}
+
+.share__icons {
+    margin: .3em 0;
+}
+
+.share__icons li {
+    display: inline-block;
+    margin-right: .45em;
+    padding-bottom: .3em;
+}
+
+.l-footer__bp {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-negative: 0;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    width: 480px;
+    font-weight: 400;
+    color: #000;
+    transition: opacity .3s;
+}
+
+.share__icons a {
+    color: #35434a !important;
+}

@@ -1,0 +1,320 @@
+#mainNav {
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+
+div#navbarResponsive {
+    width: 100%;
+    min-width: 70%;
+    /*margin-top: 3%;*/
+}
+
+.masthead-14 {
+    width: 60%;
+}
+
+.burger {
+    position: fixed;
+    top: 13.5px !important;
+    right: 29px;
+    z-index: 100;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: .5rem;
+    transition: opacity .3s;
+}
+
+.masthead-13 {
+    width: 32px;
+    height: 18px;
+}
+
+#mainNav .navbar-nav>li>a, #mainNav .navbar-nav>li>a:focus {
+    color: #d6d6d6;
+}
+
+#mainNav.navbar-shrink .navbar-nav>li>a, #mainNav.navbar-shrink .navbar-nav>li>a:focus {
+    color: #d6d6d6;
+}
+
+#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover, #mainNav.navbar-shrink .navbar-nav>li>a:hover {
+    color: #b5b5b5 !important;
+}
+
+header.masthead{
+    position: relative;
+    width: 100%;
+    padding-top: 17%;
+    color: #fff;
+    background: url('../images/mobile%20app%20developement/mobile_app_bg.jpg'),linear-gradient(to left,#7b4397,#dc2430);
+}
+
+img.masthead-3 {
+    width: 75%;
+    height: 75%;
+}
+
+.masthead-1 h4{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 2%;
+    color: #9e65a6;
+}
+
+.masthead-2 {
+    border: 2px solid #de2a47;
+    width: 4%;
+    margin: 0 auto;
+}
+
+.masthead-4 {
+    margin: 0;
+    padding-top: 4%;
+}
+
+.masthead-5{
+    width: 90%;
+}
+
+.masthead-6{
+    padding: 20% 21% 20% 21%;
+    text-align: justify;
+}
+
+.masthead-7 {
+    font-size: 45px;
+    color: #9e65a6;
+}
+
+.masthead-8 {
+    border-top: 4px solid #ff607a;
+    width: 10%;
+    margin-left: 3%;
+}
+
+.masthead-9{
+    padding: 10% 12% 0% 12%;
+}
+
+.masthead-10{
+    padding: 0% 12% 0% 12%;
+}
+
+.masthead-11{
+    width: 100%;
+}
+
+.masthead-12{
+    padding: 0 0 0 6%;
+}
+
+.masthead-15{
+    padding: 0 3% 0 3%;
+}
+
+a.nav-link.js-scroll-trigger.active {
+    color: #a767a7 !important;
+    border-bottom: 2px solid #a767a7;
+}
+
+.masthead-16{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: -20%;
+    top: -20%;
+}
+
+.l-footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 100px;
+}
+
+.l-footer__left {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.l-footer__block {
+    margin-right: 4rem;
+}
+
+.l-footer__block .share {
+    min-width: 170px;
+}
+
+.share {
+    margin: .5rem 0;
+}
+
+.share__icons {
+    margin: .3em 0;
+}
+
+.share__icons li {
+    display: inline-block;
+    margin-right: .45em;
+    padding-bottom: .3em;
+}
+
+.l-footer__bp {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-negative: 0;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    width: 480px;
+    font-weight: 400;
+    color: #000;
+    transition: opacity .3s;
+}
+
+.share__icons a {
+    color: #35434a !important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    ul.navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    li.nav-item {
+        border: 1px solid #a165a7;
+    }
+    header.masthead {
+        padding-top: 30% !important;
+    }
+    .masthead-6 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    .masthead-7 {
+        text-align: center;
+    }
+    .masthead-8 {
+        margin: 0 auto;
+    }
+    .masthead-9 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    .masthead-10 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    img.masthead-16.animated.fadeIn {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 768px){
+    ul.navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    li.nav-item {
+        border: 1px solid #a165a7;
+    }
+    header.masthead {
+        padding-top: 30% !important;
+    }
+    .masthead-6 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    .masthead-7 {
+        text-align: center;
+    }
+    .masthead-8 {
+        margin: 0 auto;
+    }
+    .masthead-9 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    .masthead-10 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    img.masthead-16.animated.fadeIn {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 992px){
+    ul.navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    li.nav-item {
+        border: 1px solid #a165a7;
+    }
+    header.masthead {
+        padding-top: 30% !important;
+    }
+    .masthead-6 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    .masthead-7 {
+        text-align: center;
+    }
+    .masthead-8 {
+        margin: 0 auto;
+    }
+    .masthead-9 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    .masthead-10 {
+        width: 100%;
+        padding: 5%;
+        font-size: 30px;
+    }
+    img.masthead-16.animated.fadeIn {
+        display: none;
+    }
+}
